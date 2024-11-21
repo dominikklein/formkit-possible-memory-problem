@@ -17,8 +17,8 @@ const testSchema = [...fields];
 
 <template>
   <p>Testing</p>
-  <HelloWorld />
-  <router-link to="/">Go to Home</router-link>
+  <HelloWorld msg="Example" />
+  <router-link id="home" to="/">Go to Home</router-link>
   <FormKit type="form">
     <FormKitSchema :schema="testSchema" :data="{}" />
   </FormKit>

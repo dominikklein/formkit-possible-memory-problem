@@ -2,5 +2,5 @@
 
 <template>
   <h1>Testing</h1>
-  <router-link to="/about">Go to About</router-link>
+  <router-link id="about" to="/about">Go to About</router-link>
 </template>
